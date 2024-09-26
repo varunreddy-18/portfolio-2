@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Detection Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <h2>Fire Detection Using Deep Learning</h2>
+        
+        <h3>Introduction</h3>
+        <p>The goal of the project is to use image processing technology to detect
+            fires and notify people. Numerous automatic fire alarm systems already exist,
+            such as the sensor-based method, which has limitations. This project is 
+            implemented by connecting a webcam as hardware and using the PyCharm IDE.</p>
+
+        <h3>System Overview</h3>
+        <p>The project mainly focuses on computer vision, machine learning, and image processing.
+            We utilize Python's OpenCV library for image processing, and the webcam captures the 
+            surrounding video feed to analyze it in real-time. The project aims to detect fire as early 
+            as possible and work in various environments.</p>
+
+        <h3>Existing System</h3>
+        <p>In the existing system, fires in forests are detected using physical sensors, which can 
+            be limited by environmental factors. These systems are often unable to detect fires in the 
+            early stages, making them less effective in preventing large-scale damage. The Internet of 
+            Things (IoT) is commonly used to connect devices and exchange data in real time.</p>
+
+        <h3>Proposed System</h3>
+        <p>We propose an image-based fire detection system that leverages computer vision techniques. 
+            Our dataset consists of sequential video frames with fire and non-fire images. The proposed 
+            method consists of three stages:</p>
+        <!-- <ul>
+            <li>Fire pixel detection using RGB and YCbCr color models</li>
+            <li>Moving pixel detection to track changes in the video</li>
+            <li>Analyzing the shape of fire-colored pixels to determine if it’s fire</li>
+        </ul> -->
+
+        <h3>Flow Diagram of the Proposed System</h3>
+        <img src="Flow-chart-of-fire-picture-detection-based-on-convolutional-neural-network.png" alt="Flow Diagram of Fire Detection" style="width:100%; height:auto;">
+        <p>The flow diagram outlines the steps in the proposed fire detection system, showing how the
+            deep convolutional neural network (CNN) is trained to classify fire versus non-fire images.
+            The system captures video frames and processes them through the neural network for 
+            classification. If fire is detected, it triggers an alert; otherwise, no action is taken.</p>
+
+        <h3>Conclusion</h3>
+        <p>By integrating image processing and deep learning techniques, our system aims to improve 
+            fire detection accuracy and speed, offering an advantage over traditional sensor-based 
+            systems. It has the potential to operate in various environments, reducing the risk of 
+            fire-related disasters.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Varun Reddy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -6,14 +6,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #9d7d7d;
+    /* background-color: #9d7d7d; */
+    background-image: linear-gradient(135deg, rgba(159, 159, 159, 0.46) 0%, rgba(159, 159, 159, 0.46) 14.286%,rgba(165, 165, 165, 0.46) 14.286%, rgba(165, 165, 165, 0.46) 28.572%,rgba(171, 171, 171, 0.46) 28.572%, rgba(171, 171, 171, 0.46) 42.858%,rgba(178, 178, 178, 0.46) 42.858%, rgba(178, 178, 178, 0.46) 57.144%,rgba(184, 184, 184, 0.46) 57.144%, rgba(184, 184, 184, 0.46) 71.43%,rgba(190, 190, 190, 0.46) 71.43%, rgba(190, 190, 190, 0.46) 85.716%,rgba(196, 196, 196, 0.46) 85.716%, rgba(196, 196, 196, 0.46) 100.002%),linear-gradient(45deg, rgb(252, 252, 252) 0%, rgb(252, 252, 252) 14.286%,rgb(246, 246, 246) 14.286%, rgb(246, 246, 246) 28.572%,rgb(241, 241, 241) 28.572%, rgb(241, 241, 241) 42.858%,rgb(235, 235, 235) 42.858%, rgb(235, 235, 235) 57.144%,rgb(229, 229, 229) 57.144%, rgb(229, 229, 229) 71.43%,rgb(224, 224, 224) 71.43%, rgb(224, 224, 224) 85.716%,rgb(218, 218, 218) 85.716%, rgb(218, 218, 218) 100.002%);
     color: #333;
     line-height: 1.6;
     padding-top: 60px;
 }
 
 nav {
-    background-color: #9a4545;
+    background-color: #363535;
     padding: 1rem;
     position: fixed;
     top: 0;
@@ -56,7 +57,7 @@ nav ul li a:hover {
 section {
     padding: 4rem 0;
     margin-bottom: 2rem;
-    background-color: #181818;
+    background-color: #d6c0d6;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -69,12 +70,12 @@ section:hover {
 section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #f8f2f2;
+    color: #272525;
 }
 
 section p {
     font-size: 1.2rem;
-    color: #d2c8c8;
+    color: #010101;
     margin-bottom: 2rem;
 }
 
@@ -98,7 +99,7 @@ section p {
 }
 
 .home-image img {
-    width: 200px; 
+    width: 300px; 
     height: 300px; 
     overflow: hidden; 
     border-radius: 0%; 
@@ -116,7 +117,7 @@ section p {
 }
 
 .card {
-    background-color: #6c5757;
+    background-color: #faf7f7;
     border-radius: 8px;
     padding: 1.5rem;
     text-align: left;
@@ -125,19 +126,19 @@ section p {
 }
 
 .card:hover {
-    background-color: #766969;
+    background-color: #c09494;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    color: #f7efef;
+    color: #060606;
 }
 
 .card p {
     font-size: 1rem;
-    color: #ece5e5;
+    color: #000000;
 }
 
 footer {
@@ -152,7 +153,7 @@ footer p {
     font-size: 1rem;
 }
 .contact-section {
-    background-color: #131212;
+    background-color: #bf9cbf;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -163,7 +164,7 @@ footer p {
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #ede2e2;
+    color: #141414;
 }
 
 .contact-info {
@@ -175,15 +176,26 @@ footer p {
 .contact-info li {
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    color:#ede2e2;
+    color:#141313;
 }
 
 .contact-info a {
     text-decoration: none;
-    color: rgb(60, 201, 233);
+    color: rgb(59, 79, 231);
     transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #bfb7b7;
+    color: #f3ebeb;
+}
+.container h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #050505;
+}
+.container .home-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
