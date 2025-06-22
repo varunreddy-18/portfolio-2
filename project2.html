@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG-Based Tour Guide Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="back-btn-container">
+        <a href="index.html" class="back-btn">&#8592; Back to Portfolio</a>
+        <a href="index.html#home" class="home-btn" style="margin-left:1rem;display:inline-block;padding:0.5em 1.2em;background:#4a4e69;color:#fff;border-radius:22px;text-decoration:none;font-weight:600;box-shadow:0 2px 10px rgba(80,60,120,0.08);transition:background 0.2s;">🏠 Home</a>
+    </div>
+    <div class="container">
+        <h1>RAG-Based Tour Guide Chatbot</h1>
+        <h2>Introduction</h2>
+        <p>The goal of this project is to develop an intelligent chatbot that acts as a city tour guide. It provides tourists with accurate, real-time information about places, landmarks, history, and local tips using Retrieval-Augmented Generation (RAG). Unlike traditional chatbots that rely solely on pre-trained models, this system can search a document store to provide up-to-date and contextually rich responses.</p>
+        <h2>System Overview</h2>
+        <p>The system leverages Natural Language Processing (NLP), information retrieval, and deep learning techniques. It uses a pre-trained language model for generation and a dense retriever to fetch relevant documents from a local or online knowledge base. The chatbot can be deployed on web or mobile platforms to interact with users in real time, answering questions about tourist destinations, transport, food options, culture, and more.</p>
+        <h2>Existing System</h2>
+        <p>Current digital tour guide solutions are mostly rule-based or app-driven with static content. They lack the flexibility to answer spontaneous tourist queries and often require constant manual updates. Traditional virtual assistants like Siri or Google Assistant offer general answers but are not optimized for city-specific travel experiences.</p>
+        <h2>Proposed System</h2>
+        <p>We propose a dynamic and intelligent chatbot powered by the RAG architecture. The system includes the following components:</p>
+        <ul>
+            <li><strong>Retriever:</strong> A dense vector retriever fetches relevant chunks from a pre-indexed knowledge base of city-related data.</li>
+            <li><strong>Generator:</strong> A language model generates human-like responses based on the retrieved documents.</li>
+            <li><strong>Interface:</strong> A user-friendly chatbot interface for seamless user interaction.</li>
+        </ul>
+        <h2>Conclusion</h2>
+        <p>By integrating retrieval-augmented generation with a conversational interface, the system offers a smart, adaptable, and user-centric tour guide experience. Unlike static apps or generic assistants, this chatbot provides tourists with personalized and detailed information, enhancing their travel experience in real time.</p>
+        <div style="text-align:center;margin-top:2.5rem;">
+            <div style="font-size:1.08rem;color:#4a4e69;max-width:420px;margin:0 auto 0.7rem auto;">
+                <strong>Chatbot UI Illustration:</strong> This image demonstrates the friendly, accessible interface of the RAG-based tour guide chatbot, designed to help travelers get instant, relevant answers about their destination.
+            </div>
+            <img src="chatbot_image.png" alt="Chatbot Illustration (Bottom)" style="max-width:340px;width:100%;border-radius:18px;box-shadow:0 4px 24px rgba(80,60,120,0.13);margin-bottom:0.7rem;">
+        </div>
+    </div>
+</body>
+</html>
