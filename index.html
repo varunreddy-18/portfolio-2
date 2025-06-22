@@ -1,130 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Varun Reddy | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <nav>
+        <div class="site-title">VARUN REDDY</div>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
-
     <section id="home" class="container home-section">
         <div class="home-text">
-            <h2>Welcome to My Portfolio</h2>
-            <p>Hello! I am V Varun Reddy. I am a  Full Stack Developer focused on creating elegant and functional websites. Explore my work, skills, and experience below!</p>
+            <h2>Varun Reddy Vummenthala</h2>
+            <div class="home-buttons">
+                <a href="mailto:varunreddy9154@gmail.com" class="btn primary-btn" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" class="icon-btn"> Email
+                </a>
+                <a href="https://github.com/varunreddy-18" class="btn secondary-btn" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="icon-btn"> GitHub
+                </a>
+                <a href="https://linkedin.com/in/varun-reddy-vummenthala-53b4bb258" class="btn secondary-btn" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="icon-btn"> LinkedIn
+                </a>
+            </div>
         </div>
         <div class="home-image">
-            <img src="WhatsApp_Image_2024-09-25_at_16.02.26-removebg-preview.png" alt="Profile Image">
+            <div class="profile-pic-wrapper">
+                <img src="var.png" alt="Profile Image" style="object-position: center 55%;">
+            </div>
         </div>
     </section>
-
-
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>I am a passionate Full Stack Developer with experience in building dynamic, 
-        user-friendly web applications. With a strong foundation in both front-end and 
-        back-end technologies, I enjoy creating efficient, scalable solutions. 
-        My expertise spans across languages like JavaScript, Python, 
-        and frameworks like  Node.js, and Django. I thrive on 
-        solving complex problems and am always eager to learn new technologies 
-        to enhance my skills. Whether it's developing responsive designs or ensuring 
-        seamless functionality behind the scenes, I aim to deliver high-quality projects 
-        that meet both user needs and business goals.</p>
+        <p>I’m currently pursuing my Master’s in Information Technology with a specialization in AI and Machine Learning at IIIT Hyderabad. I’m passionate about building intelligent systems and enjoy working with technologies like Python, TensorFlow, PyTorch, and SQL. My strengths include strong problem-solving skills, a solid foundation in data structures and algorithms, and a keen interest in applying machine learning to real-world challenges.</p>
     </section>
-
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div class="education-list flex-row">
+            <div class="card">
+                <h3>Master of Science in Data Science</h3>
+                <p><strong>IIIT Hyderabad</strong></p>
+                <p><strong>Specialization:</strong> Artificial Intelligence & Machine Learning (AIML)</p>
+            </div>
+            <div class="card">
+                <h3>Bachelor of Technology</h3>
+                <p><strong>Bharath Institute of Higher Technology and Research</strong></p>
+                <p><strong>Specialization:</strong> Computer Science</p>
+            </div>
+            <div class="card">
+                <h3>Intermediate</h3>
+                <p><strong>Alphores Junior College</strong></p>
+                <p><strong>Specialization:</strong> MPC (Maths, Physics, Chemistry)</p>
+            </div>
+        </div>
+    </section>
     <section id="skills" class="container">
         <h2>Skills</h2>
         <div class="skills-list">
             <div class="card">
                 <h3>Python</h3>
-                <p>I am proficient in Python,My expertise includes utilizing Python
-                     extensive libraries and frameworks to create efficient and scalable 
-                     solutions, and applying Pythons clean syntax to produce clear, maintainable code.</p>
+                <p>I am proficient in Python. My expertise includes utilizing Python's extensive libraries and frameworks to create efficient and scalable solutions, and applying Python's clean syntax to produce clear, maintainable code.</p>
             </div>
             <div class="card">
-                <h3>Html and Css</h3>
-                <p>I have a strong grasp of HTML and CSS, enabling me to structure web content efficiently and style it for a responsive, visually appealing design. 
-                    I ensure cross-browser compatibility and accessibility standards are met.</p>
+                <h3>HTML & CSS</h3>
+                <p>I have a strong grasp of HTML and CSS, enabling me to structure web content efficiently and style it for a responsive, visually appealing design. I ensure cross-browser compatibility and accessibility standards are met.</p>
             </div>
             <div class="card">
-                <h3> Version Control (Git):</h3>
-                <p>I have experience with Git and GitHub, allowing me to collaborate effectively in team environments,
-                     track changes, and manage code efficiently.</p>
+                <h3>Version Control (Git)</h3>
+                <p>I have experience with Git and GitHub, allowing me to collaborate effectively in team environments, track changes, and manage code efficiently.</p>
             </div>
-            
             <div class="card">
-                <h3>UI/UX Design Principles </h3>
+                <h3>UI/UX Design Principles</h3>
                 <p>I understand core UI/UX principles, ensuring that the websites I build are not only functional but also provide a seamless and intuitive user experience.</p>
             </div>
-            
         </div>
     </section>
-
-
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="projects-list">
-            <!-- <div class="card">
-                <h3>Fire Detection using Deep Learning </h3>
-                <p>This project focuses on leveraging deep learning techniques to automatically 
-                detect fire in images or video streams. The system likely uses
-                convolutional neural networks (CNNs) to analyze visual data, identifying patterns and 
-                features associated with fire, such as color, shape, and movement.</p>
-            </div> -->
             <div class="card">
-                <!-- <h3><a href="fire-detection.html" target="_blank">Fire Detection using Deep Learning</a></h3> -->
                 <a href="project1.html" target="_blank"><h3>Fire Detection using Deep Learning</h3></a>
-                <p>This project focuses on leveraging deep learning techniques to automatically 
-                    detect fire in images or video streams. The system likely uses
-                    convolutional neural networks (CNNs) to analyze visual data, identifying patterns and 
-                    features associated with fire, such as color, shape, and movement. Click for a detailed project description.</p>
+                <p>This project focuses on leveraging deep learning techniques to automatically detect fire in images or video streams. The system uses convolutional neural networks (CNNs) to analyze visual data, identifying patterns and features associated with fire, such as color, shape, and movement. Click for a detailed project description.</p>
             </div>
-            
             <div class="card">
-                <h3>Video Class App using Dart and Flutter</h3>
-                <p>Video Class App is a mobile application built
-                    using Dart and Flutter that enables real-time 
-                    video conferencing for online classes. The app 
-                    provides seamless video and audio communication, 
-                    allowing students and teachers to connect remotely. 
-                </p>
+                <a href="project2.html" target="_blank"><h3>RAG Tour Chatbot</h3></a>
+                <p>RAG Tour Chatbot is an intelligent assistant that helps users explore cities by answering queries about local attractions, transportation, food, and more. It combines Retrieval-Augmented Generation with a document database to deliver accurate, context-aware responses in real time. Click for a detailed project description.</p>
             </div>
-            
-            <!-- <div class="card">
-                <h3>Object Detection using Deep Learning</h3>
-                <p>Object Detection using Deep Learning is a project 
-                focused on identifying and classifying objects within 
-                images or video streams. Utilizing advanced deep learning 
-                models such as YOLO (You Only Look Once), SSD (Single Shot Multibox Detector), 
-                or Faster R-CNN, the system accurately detects multiple objects in real time.</p>
-            </div> -->
         </div>
     </section>
     <section id="contact" class="container contact-section">
-        <h2>Contact Me</h2>
-        <ul class="contact-info">
-            <li><strong>Email:</strong> <a href="mailto:varunreddy9154@gmail.com">varunreddy9154@gmail.com</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/varunreddy-18" target="_blank">github.com/varunreddy-18</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/varun-reddy-vummenthala-53b4bb258" target="_blank">linkedin.com/in/varun-reddy-vummenthala-53b4bb258</a></li>
-        </ul>
+        <h2>Connect</h2>
+        <form class="connect-form" action="https://formspree.io/f/xqabyzdv" method="POST" style="max-width:400px;margin:0 auto;">
+            <div style="margin-bottom:1.2rem;">
+                <label for="name" style="display:block;margin-bottom:0.5rem;font-weight:600;">Name</label>
+                <input type="text" id="name" name="name" required style="width:100%;padding:0.7rem;border-radius:8px;border:1px solid #ccc;">
+            </div>
+            <div style="margin-bottom:1.2rem;">
+                <label for="email" style="display:block;margin-bottom:0.5rem;font-weight:600;">Email</label>
+                <input type="email" id="email" name="email" required style="width:100%;padding:0.7rem;border-radius:8px;border:1px solid #ccc;">
+            </div>
+            <div style="margin-bottom:1.2rem;">
+                <label for="message" style="display:block;margin-bottom:0.5rem;font-weight:600;">Message</label>
+                <textarea id="message" name="message" rows="4" required style="width:100%;padding:0.7rem;border-radius:8px;border:1px solid #ccc;"></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn" style="width:100%;">Send</button>
+        </form>
     </section>
-    
-
-
     <footer>
         <p>&copy; 2024 Varun Reddy. All rights reserved.</p>
+        <div class="footer-social">
+            <a href="mailto:varunreddy9154@gmail.com" target="_blank" title="Email">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" class="icon-btn" style="width:24px;height:24px;vertical-align:middle;">
+            </a>
+            <a href="https://github.com/varunreddy-18" target="_blank" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="icon-btn" style="width:24px;height:24px;vertical-align:middle;">
+            </a>
+            <a href="https://linkedin.com/in/varun-reddy-vummenthala-53b4bb258" target="_blank" title="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="icon-btn" style="width:24px;height:24px;vertical-align:middle;">
+            </a>
+        </div>
     </footer>
-
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">&#8679;</button>
+    <script>
+// Back to Top button functionality
+const backToTopBtn = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+    } else {
+        backToTopBtn.classList.remove('show');
+    }
+});
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 </body>
 </html>
